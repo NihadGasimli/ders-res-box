@@ -1,11 +1,21 @@
 body{
+    box-sizing: border-box;
     background-image: url(/assets/images/concrete_seamless.png);
 }
 header{
     width: 100%;
     background-color: #fff;
     height: 100px; 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+header .links ul{
+    display: flex;
+}
+header .links ul li{
 }
 .name{
     font-size: 35px;
@@ -19,9 +29,9 @@ header{
     text-align: center;
     padding-top:30px;
 }
-.ul a{
+.links a{
     font-size: 30px;
-    background-color:#4AAAA6 ;
+    background-color:white ;
     text-decoration: none;
     
 }
@@ -73,5 +83,6 @@ footer{
     text-align: center;
     border-top: 5px solid #4AAAA6;
 }
+
 
 
