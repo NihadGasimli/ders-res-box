@@ -33,27 +33,77 @@ header{
 header .links ul{
     display: flex;
 }
-.aboutme .catimg img{
-   width: 200px;
-   padding-top: 0px;
-}
-.aboutme{
-    background-color: white;
+.contact{
+    background-color: rgb(255, 255, 255);
     width: 40%;
-    padding-left: 10px;
-    padding-top: 30px;
-    margin-top: 100px;
-    
+    margin-top: 20px;
 }
-.aboutme h1{
+.contact hr{
+    width: 90%;
+}
+.contact p{
     font-size: 35px;
     color: #4AAAA6;
     font-weight: bold;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
-.aboutme hr{
+.contact .formname input{
     width: 90%;
-    
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
 }
+.contact .formname label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: gray;
+}
+.contact .formemail input{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact .formemail label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: gray;
+}
+.contact .formmessage label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: gray;
+}
+.contact textarea{
+    padding: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.contact button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    width: 40%;
+    margin-left: 20px;
+    background-color: #4AAAA6;
+    color: white;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 .connect p{
     font-size: 35px;

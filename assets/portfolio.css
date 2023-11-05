@@ -33,27 +33,66 @@ header{
 header .links ul{
     display: flex;
 }
-.aboutme .catimg img{
-   width: 200px;
-   padding-top: 0px;
+.portfolio hr{
+    width: 90%;
 }
-.aboutme{
-    background-color: white;
+.portfolio{
+    background-color: rgb(255, 255, 255);
     width: 40%;
-    padding-left: 10px;
-    padding-top: 30px;
-    margin-top: 100px;
-    
+    margin-top: 50px;
 }
-.aboutme h1{
+.portfolio>p{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
     font-size: 35px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
     color: #4AAAA6;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
-.aboutme hr{
-    width: 90%;
-    
+.portfolio img{
+    width: 250px;
 }
+.portfolio .hangman p{
+    font-size: 26px;
+    background-color:#4AAAA6;
+    width: 38%;
+    padding: 10px;
+    text-align: center;
+}
+.portfolio .rpggame p{
+    font-size: 26px;
+    background-color: #4AAAA6;
+    width: 38%;
+    padding: 10px;
+    text-align:center;
+}
+.portfolio .triviagame p{
+    font-size: 26px;
+    background-color: #4AAAA6;
+    width: 38%;
+    padding: 10px;
+    text-align:center;
+}
+.portfolio .rutgers p{
+    font-size: 26px;
+    background-color: #4AAAA6;
+    width: 38%;
+    padding: 10px;
+    text-align:center;
+}
+.portfolio .rockpaper p{
+    font-size: 26px;
+    background-color: #4AAAA6;
+    width: 38%;
+    padding: 10px;
+    text-align:center;
+}
+
+
+
 
 .connect p{
     font-size: 35px;
