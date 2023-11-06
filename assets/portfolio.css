@@ -25,29 +25,42 @@ header{
     padding-top:30px;
 }
 .links a{
-    font-size: 30px;
-    background-color:white ;
+    font-size: 20px;
+    background-color: white;
     text-decoration: none;
+    color: #808080;
     
 }
 header .links ul{
     display: flex;
+    position: relative;
+    right: 250px;
+    gap: 5px;
 }
 .portfolio hr{
     width: 90%;
+    position: relative;
+    top: 40px;
 }
 .portfolio{
     background-color: rgb(255, 255, 255);
     width: 40%;
-    margin-top: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;    
+    left: 200px;
+    padding-bottom: 20px;
+    justify-content: center;
 }
 .portfolio>p{
     background-color: rgb(255, 255, 255);
     width: 30%;
     font-size: 35px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 5px;
+    position: relative;
+    left: -190px;
+    top: 30px;
     color: #4AAAA6;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -55,63 +68,88 @@ header .links ul{
 .portfolio img{
     width: 250px;
 }
-.portfolio .hangman p{
+.hangman p{
     font-size: 26px;
     background-color:#4AAAA6;
-    width: 38%;
-    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
+    position: relative;
+    top: 150px;
 }
-.portfolio .rpggame p{
+.rpggame p{
     font-size: 26px;
     background-color: #4AAAA6;
-    width: 38%;
-    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align:center;
+    position: relative;
+    top: 150px;
 }
-.portfolio .triviagame p{
+.triviagame p{
     font-size: 26px;
     background-color: #4AAAA6;
-    width: 38%;
-    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align:center;
+    position: relative;
+    top: 150px;
 }
-.portfolio .rutgers p{
+.rutgers p{
     font-size: 26px;
     background-color: #4AAAA6;
-    width: 38%;
-    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align:center;
+    position: relative;
+    top: 150px;
 }
-.portfolio .rockpaper p{
+.rockpaper p{
     font-size: 26px;
     background-color: #4AAAA6;
-    width: 38%;
-    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align:center;
+    position: relative;
+    top: 150px;
 }
-
-
-
+.rockpaper a{
+    justify-content: left;
+}
 
 .connect p{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: #4AAAA6;
     text-align: center;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .connect hr{
     width: 90%;
+    padding-bottom: 20px;
 }
 .connect{
-    margin-top: 30px;
     width: 30%;
     background-color: white;
+    position: absolute;
+    left: 900px;
+    top: 173px;
+    padding-bottom: 60px;
 }
 .icons{
     text-align: center;
+}
+.icons img {
+    width: 120px;
+    border-radius: 30px;
+    position: relative;
 }
 footer{
     margin-top: 40px;
@@ -119,6 +157,10 @@ footer{
     padding: 35px;
     text-align: center;
     border-top: 5px solid #4AAAA6;
+}
+
+section{
+    display: flex;
 }
 
 
