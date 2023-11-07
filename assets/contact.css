@@ -5,11 +5,13 @@ body{
 header{
     width: 100%;
     background-color: #fff;
-    height: 100px; 
+    height: 100px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    z-index: 999999;
 }
 
 .name{
@@ -25,21 +27,29 @@ header{
     padding-top:30px;
 }
 .links a{
-    font-size: 30px;
-    background-color:white ;
+    font-size: 20px;
+    background-color: white;
     text-decoration: none;
+    color: #808080;
     
 }
 header .links ul{
     display: flex;
+    position: relative;
+    right: 250px;
+    gap: 5px;
 }
 .contact{
     background-color: rgb(255, 255, 255);
     width: 40%;
-    margin-top: 20px;
+    position: relative;
+    top: 173px;
+    left: 200px;
+    padding-bottom: 20px;
 }
 .contact hr{
     width: 90%;
+    padding-bottom: 20px;
 }
 .contact p{
     font-size: 35px;
@@ -59,7 +69,6 @@ header .links ul{
 }
 .contact .formname label{
     font-size: 25px;
-    font-weight: bold;
     margin-left: 20px;
     color: gray;
 }
@@ -73,21 +82,15 @@ header .links ul{
 }
 .contact .formemail label{
     font-size: 25px;
-    font-weight: bold;
     margin-left: 20px;
     color: gray;
 }
 .contact .formmessage label{
     font-size: 25px;
-    font-weight: bold;
     margin-left: 20px;
     color: gray;
 }
-.contact textarea{
-    padding: 40px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
+
 .contact button{
     font-size: 25px;
     font-weight: bold;
@@ -99,30 +102,42 @@ header .links ul{
     border: 0;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
+section{
+    display: flex;
+}
 .connect p{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: #4AAAA6;
     text-align: center;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .connect hr{
     width: 90%;
+    padding-bottom: 20px;
 }
 .connect{
-    margin-top: 30px;
     width: 30%;
     background-color: white;
+    position: absolute;
+    left: 900px;
+    top: 173px;
+    padding-bottom: 60px;
 }
 .icons{
     text-align: center;
+}
+.icons img{
+    width: 120px;
+    border-radius: 30px;
+}
+.formmessage textarea{
+    width: 80%;
+    padding: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 footer{
     margin-top: 40px;
@@ -130,6 +145,8 @@ footer{
     padding: 35px;
     text-align: center;
     border-top: 5px solid #4AAAA6;
+    position: relative;
+    top: 400px;
 }
 
 

@@ -67,11 +67,16 @@ header .links ul {
     font-size: 35px;
     color: #4AAAA6;
     font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: -10px;
 }
-
 .aboutme hr {
     width: 95%;
     padding-bottom: 20px;
+}
+.text1{
+    font-size: 20px;
 }
 
 .connect p {
@@ -102,16 +107,15 @@ header .links ul {
     text-align: center;
 }
 
+.icons img {
+    width: 120px;
+    border-radius: 30px;
+}
 footer {
     background-color: #808080;
     padding: 35px;
     text-align: center;
     border-top: 5px solid #4AAAA6;
     position: relative;
-    top: 350px;
-}
-
-.icons img {
-    width: 120px;
-    border-radius: 30px;
+    top: 400px;
 }
