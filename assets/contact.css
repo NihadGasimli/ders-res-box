@@ -49,7 +49,6 @@ header .links ul{
 }
 .contact hr{
     width: 90%;
-    padding-bottom: 20px;
 }
 .contact p{
     font-size: 35px;
@@ -59,7 +58,7 @@ header .links ul{
     padding-top: 10px;
     padding-bottom: 5px;
 }
-.contact .formname input{
+.formname input{
     width: 90%;
     margin-left: 20px;
     margin-top: 10px;
@@ -67,12 +66,12 @@ header .links ul{
     padding: 10px;
     font-size: 20px;
 }
-.contact .formname label{
+.formname label{
     font-size: 25px;
     margin-left: 20px;
     color: gray;
 }
-.contact .formemail input{
+.formemail input{
     width: 90%;
     margin-left: 20px;
     margin-top: 10px;
@@ -80,12 +79,12 @@ header .links ul{
     padding: 10px;
     font-size: 20px;
 }
-.contact .formemail label{
+.formemail label{
     font-size: 25px;
     margin-left: 20px;
     color: gray;
 }
-.contact .formmessage label{
+.formmessage label{
     font-size: 25px;
     margin-left: 20px;
     color: gray;
@@ -116,7 +115,6 @@ section{
 }
 .connect hr{
     width: 90%;
-    padding-bottom: 20px;
 }
 .connect{
     width: 30%;
@@ -132,6 +130,7 @@ section{
 .icons img{
     width: 120px;
     border-radius: 30px;
+    padding-top: 20px;
 }
 .formmessage textarea{
     width: 80%;

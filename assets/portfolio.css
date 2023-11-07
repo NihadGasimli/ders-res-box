@@ -135,7 +135,6 @@ header .links ul{
 }
 .connect hr{
     width: 90%;
-    padding-bottom: 20px;
 }
 .connect{
     width: 30%;
@@ -151,6 +150,7 @@ header .links ul{
 .icons img {
     width: 120px;
     border-radius: 30px;
+    padding-top: 20px;
 }
 footer{
     margin-top: 40px;
