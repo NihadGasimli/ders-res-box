@@ -39,6 +39,12 @@ header .links ul{
     right: 250px;
     gap: 5px;
 }
+header .links ul :nth-child(2)
+{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 0px 10px;
+}
 .portfolio hr{
     width: 90%;
     position: relative;
