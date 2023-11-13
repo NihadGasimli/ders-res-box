@@ -85,7 +85,7 @@ header .links ul {
     color: #4AAAA6;
     text-align: center;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
 }
 
@@ -108,7 +108,7 @@ header .links ul {
 
 .icons img {
     width: 120px;
-    border-radius: 30px;
+    border-radius: 10px;
     padding-top: 20px;
 }
 footer {

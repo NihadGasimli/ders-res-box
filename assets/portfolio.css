@@ -42,7 +42,7 @@ header .links ul{
 .portfolio hr{
     width: 90%;
     position: relative;
-    top: 40px;
+    top: 25px;
 }
 .portfolio{
     background-color: rgb(255, 255, 255);
@@ -62,7 +62,7 @@ header .links ul{
     font-size: 35px;
     position: relative;
     left: -190px;
-    top: 30px;
+    top: 20px;
     color: #4AAAA6;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -130,7 +130,7 @@ header .links ul{
     color: #4AAAA6;
     text-align: center;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
 }
 .connect hr{
@@ -149,7 +149,7 @@ header .links ul{
 }
 .icons img {
     width: 120px;
-    border-radius: 30px;
+    border-radius: 10px;
     padding-top: 20px;
 }
 footer{
